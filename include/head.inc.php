@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <ul class="sidebar-menu scrollable pos-r">
-                    <li class="nav-item mT-30 active"><a class="sidebar-link" href="./" default><span class="icon-holder"><i class="c-blue-500 ti-dashboard"></i> </span><span class="title">Dashboard</span></a></li>
+                    <li class="nav-item mT-30 active"><a class="sidebar-link" href="./dashboard.php" default><span class="icon-holder"><i class="c-blue-500 ti-dashboard"></i> </span><span class="title">Dashboard</span></a></li>
                     <li class="nav-item"><a class="sidebar-link" href="Myorders.php"><span class="icon-holder"><i class="c-deep-orange-500 ti-write"></i> </span><span class="title">My Orders</span></a></li>
                     <li class="nav-item"><a class="sidebar-link" href="chat.php"><span class="icon-holder"><i class="c-deep-purple-500 ti-comments"></i> </span><span class="title">Chat</span></a></li>
                     <li class="nav-item dropdown"><a class="sidebar-link" href="My_wallet.php"><span class="icon-holder"><i class="c-pink-500 ti-wallet"></i> </span><span class="title">Wallet</span></a></li>
