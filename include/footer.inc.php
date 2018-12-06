@@ -14,9 +14,12 @@
             </footer>
         </div>
     </div>
-    <script type="text/javascript" src="assets/script/vendor.js"></script>
-    <script type="text/javascript" src="assets/script/bundle.js"></script>
     <script type="text/javascript" src="assets/script/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/script/vendor.js"></script>
+    <script type="text/javascript" src="assets/script/bundle.js"></script>  
     <script type="text/javascript" src="assets/script/main.js"></script>
+    <script type="text/javascript" src="assets/script/profile.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/star-rating-svg@3.5.0/src/jquery.star-rating-svg.min.js"></script>
 </body>
 </html>

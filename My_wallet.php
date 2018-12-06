@@ -12,7 +12,7 @@ require(__DIR__.DIRECTORY_SEPARATOR."include".DIRECTORY_SEPARATOR."head.inc.php"
                        			<table class="table table-hover">
                                         <thead>
                                             <tr>
-                                                <th scope="col">No</th>
+                                                <th scope="col">Number</th>
                                                 <th scope="col">Account Name</th>
                                                 <th scope="col">Email</th>
                                                 <th scope="col">Action</th>

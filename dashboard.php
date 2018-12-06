@@ -1,7 +1,6 @@
 <?php
 require(__DIR__.DIRECTORY_SEPARATOR."include".DIRECTORY_SEPARATOR."head.inc.php");
 ?>
-
             <main class="main-content bgc-grey-100">
                 <div id="mainContent">
                     <div class="row gap-20 masonry pos-r">

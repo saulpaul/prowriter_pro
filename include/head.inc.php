@@ -58,6 +58,9 @@
 	</style>
     <link href="./assets/style/mainer.style.css" rel="stylesheet">
     <link href="./assets/style/style.css" rel="stylesheet"/>
+    <link href="./assets/style/bt.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/star-rating-svg@3.5.0/src/css/star-rating-svg.min.css" rel="stylesheet"/>
+
 </head>
 
 <body class="app">
@@ -98,7 +101,7 @@
                     <li class="nav-item"><a class="sidebar-link" href="Myorders.php"><span class="icon-holder"><i class="c-deep-orange-500 ti-write"></i> </span><span class="title">My Orders</span></a></li>
                     <li class="nav-item"><a class="sidebar-link" href="chat.php"><span class="icon-holder"><i class="c-deep-purple-500 ti-comments"></i> </span><span class="title">Chat</span></a></li>
                     <li class="nav-item dropdown"><a class="sidebar-link" href="My_wallet.php"><span class="icon-holder"><i class="c-pink-500 ti-wallet"></i> </span><span class="title">Wallet</span></a></li>
-                    <li class="nav-item dropdown"><a class="sidebar-link" href="profile.php"><span class="icon-holder"><i class="c-pink-500 ti-user"></i> </span><span class="title">Profie</span></a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -120,7 +123,7 @@
                                     <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
                                         <li>
                                             <a href="#" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="../../../randomuser.me/api/portraits/men/1.jpg" alt=""></div>
+                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="assets/static/images/nobody_m.original.jpg" alt=""></div>
                                                 <div class="peer peer-greed"><span><span class="fw-500">WriterGuru </span> <span class="c-grey-600">Message on Order #345452</span>
                                                     </span>
                                                     <p class="m-0"><small class="fsz-xs">5 mins ago</small></p>
@@ -129,7 +132,7 @@
                                         </li>
                                         <li>
                                             <a href="#" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="../../../randomuser.me/api/portraits/men/2.jpg" alt=""></div>
+                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="assets/static/images/nobody_m.original.jpg" alt=""></div>
                                                 <div class="peer peer-greed"><span><span class="fw-500">Moo Writer</span> <span class="c-grey-600">liked your <span class="text-dark">Message on Order #42351</span></span>
                                                     </span>
                                                     <p class="m-0"><small class="fsz-xs">7 mins ago</small></p>
@@ -138,7 +141,7 @@
                                         </li>
                                         <li>
                                             <a href="#" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="../../../randomuser.me/api/portraits/men/3.jpg" alt=""></div>
+                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="assets/static/images/nobody_m.original.jpg" alt=""></div>
                                                 <div class="peer peer-greed"><span><span class="fw-500">Lee Moley</span> <span class="c-grey-600">Message on Order #3454523 </span>
                                                     </span>
                                                     <p class="m-0"><small class="fsz-xs">10 mins ago</small></p>
@@ -157,7 +160,7 @@
                                     <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
                                         <li>
                                             <a href="#" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="../../../randomuser.me/api/portraits/men/1.jpg" alt=""></div>
+                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="assets/static/images/nobody_m.original.jpg" alt=""></div>
                                                 <div class="peer peer-greed">
                                                     <div>
                                                         <div class="peers jc-sb fxw-nw mB-5">
@@ -171,7 +174,7 @@
                                         </li>
                                         <li>
                                             <a href="#" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="../../../randomuser.me/api/portraits/men/2.jpg" alt=""></div>
+                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="assets/static/images/nobody_m.original.jpg" alt=""></div>
                                                 <div class="peer peer-greed">
                                                     <div>
                                                         <div class="peers jc-sb fxw-nw mB-5">
@@ -185,7 +188,7 @@
                                         </li>
                                         <li>
                                             <a href="#" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="../../../randomuser.me/api/portraits/men/3.jpg" alt=""></div>
+                                                <div class="peer mR-15"><img class="w-3r bdrs-50p" src="assets/static/images/nobody_m.original.jpg" alt=""></div>
                                                 <div class="peer peer-greed">
                                                     <div>
                                                         <div class="peers jc-sb fxw-nw mB-5">
@@ -209,7 +212,7 @@
                             </a>
                             <ul class="dropdown-menu fsz-sm">
 <!--                                <li><a href="#" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-settings mR-10"></i> <span>Setting</span></a></li>-->
-                                <li><a href="#" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-user mR-10"></i> <span>Profile</span></a></li>
+                                <li><a href="profile.php" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-user mR-10"></i> <span>Profile</span></a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-power-off mR-10"></i> <span>Logout</span></a></li>
                             </ul>

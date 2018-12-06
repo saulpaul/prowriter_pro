@@ -318,3 +318,15 @@ $(document).ready(function(){
 		$('#loginnerform').fadOut();
 	});
 });
+
+//userrating 
+
+	var dataRate = $('.rating_review').attr('data-rated');
+	$(".my-rating").starRating({
+		readOnly:true, 
+		initialRating:2.5,
+		activeColor:'#2196f4',
+		ratedColor:'#2196f4',
+		useGradient:'',
+		starSize: 20
+	});

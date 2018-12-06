@@ -824,29 +824,11 @@ input,
         }
         
         .index .section-form:after {
-            background-color: #edd17a;
-            content: ' ';
-            height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            width: 50%;
-            background-position: initial initial;
-            background-repeat: initial initial
+            background-color: white;
         }
         
         .section-form .sec-form-info:after,
         .section-form .sec-form-info:before {
-            border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #edd17a;
-            border-style: solid;
-            border-width: 200px 0 200px 40px;
-            content: ' ';
-            display: block;
-            height: 0;
-            position: absolute;
-            right: -40px;
-            top: 0;
-            width: 0
         }
         
         .section-form .sec-form-info:after {
