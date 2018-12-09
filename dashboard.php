@@ -481,7 +481,7 @@ require(__DIR__.DIRECTORY_SEPARATOR."include".DIRECTORY_SEPARATOR."head.inc.php"
                                         <div class="form-row">
 											<div class="form-group col-md-12">
 												<label for="textArea">Precise Description.</label>
-												<textarea class="form-control" id="textArea" rows="5" placeholder="Small Description"></textarea>
+												<textarea class="form-control" id="textArea" rows="5" placeholder="Small Description" style="resize:none;"></textarea>
 											 </div>
                                        	</div>
                                         <button type="submit" class="btn btn-primary">Submit Order</button>
