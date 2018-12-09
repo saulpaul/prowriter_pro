@@ -150,7 +150,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="pX-20 pY-15 ta-c bdT"><span><a href="/Notification.php" class="c-grey-600 cH-blue fsz-sm td-n">View All Notifications <i class="ti-angle-right fsz-xs mL-10"></i></a></span></li>
+                                <li class="pX-20 pY-15 ta-c bdT"><span><a href="notification.php" class="c-grey-600 cH-blue fsz-sm td-n">View All Notifications <i class="ti-angle-right fsz-xs mL-10"></i></a></span></li>
                             </ul>
                         </li>
                         <li class="notifications dropdown"><span class="counter bgc-blue">3</span> <a href="#" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-comments"></i></a>
